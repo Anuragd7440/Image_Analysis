@@ -1,0 +1,5 @@
+https://drive.google.com/file/d/1suzIqvSxOLriw53ufeORRO68YjYCtzgu/view?usp=sharing
+
+
+
+The Semantic Multiclass Segmentation Drone Dataset is present in the given above drive link. The dataset contains, images and their respective masks. It has 23 classes.
