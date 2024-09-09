@@ -2,7 +2,7 @@
 
 ## Overview
 
-This pipeline guides you through the process of annotating drone-captured images using Label Studio, exporting the annotations, and generating grayscale masks based on a predefined label mapping. The raw images and the corresponding grayscale masks are saved separately and renamed sequentially, then zipped for download.
+This pipeline guides through the process of annotating drone-captured images using Label Studio, exporting the annotations, and generating grayscale masks based on a predefined label mapping. The raw images and the corresponding grayscale masks are saved separately and renamed sequentially, then zipped for download.
 
 ## Workflow
 
