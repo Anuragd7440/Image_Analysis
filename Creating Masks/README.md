@@ -40,11 +40,11 @@ This pipeline guides through the process of annotating drone-captured images usi
 - **Step 8**: For each image:
   - A **semantic grayscale mask** is created based on polygon annotations.
   - The mask values correspond to specific classes using a mapping:
-    - `Unlabelled`: 0 (Black)
-    - `Boundary`: 1 (Light Blue)
-    - `Land`: 2 (Light Green)
-    - `Others`: 3 (Orange)
-    - `Solar_Panels`: 4 (Brown)
+    - `Unlabelled`: 0
+    - `Boundary`: 1
+    - `Land`: 2
+    - `Others`: 3
+    - `Solar_Panels`: 4
 
 - **Step 9**: The notebook converts each polygon segmentation into a **filled grayscale mask** using OpenCV's `fillPoly` function.
 
