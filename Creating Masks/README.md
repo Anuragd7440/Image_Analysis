@@ -43,7 +43,7 @@ This pipeline guides through the process of annotating drone-captured images usi
     - `Unlabelled`: 0
     - `Boundary`: 1
     - `Land`: 2
-    - `Others`: 3
+    - `Poles`: 3
     - `Solar_Panels`: 4
 
 - **Step 9**: The notebook converts each polygon segmentation into a **filled grayscale mask** using OpenCV's `fillPoly` function.
