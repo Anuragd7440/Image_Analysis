@@ -34,6 +34,7 @@ This pipeline guides through the process of annotating drone-captured images usi
 - **Step 7**: Unzip the file in Colab. The notebook will:
   - Read the images and `JSON` annotation file.
   - Map the categories (e.g., `Boundary`, `Land`, `Solar_Panels`, etc.) to grayscale values based on predefined mappings.
+  - You can find the notebook [here](https://github.com/Anuragd7440/Image_Analysis/blob/main/Creating%20Masks/COCO_JSON_to_Semantic_Masks.ipynb).
 
 ### 4. Generating and Saving Grayscale Masks
 
