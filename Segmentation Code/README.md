@@ -2,10 +2,6 @@
 
 This document provides a step-by-step guide to performing image segmentation using a U-Net model. The process involves importing and preprocessing images, defining and training a model, evaluating its performance, and making predictions on new data.
 
-## Overview
-
-We'll use a U-Net model to perform semantic segmentation on images. This involves several key steps: importing images, preparing data, defining and training the model, and finally making predictions.
-
 ## 1. Importing Libraries
 
 The first step involves importing the necessary libraries for image processing, model building, and evaluation. This includes libraries for handling images, numerical operations, and machine learning frameworks.
