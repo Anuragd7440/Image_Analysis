@@ -24,7 +24,7 @@ This pipeline guides through the process of annotating drone-captured images usi
 - **Step 5**: Export the dataset from Label Studio in **COCO JSON format**.
   - The exported zip file will include:
     - A `JSON` file containing annotations.
-    - A directory containing the raw annotated images.
+    - A folder containing the raw images.
 
 ### 3. Uploading and Processing the Exported Data in Colab
 
