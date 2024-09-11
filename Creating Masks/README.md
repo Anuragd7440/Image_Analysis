@@ -65,4 +65,3 @@ This pipeline guides through the process of annotating drone-captured images usi
 
 - **Error Handling**: If a file is missing, it skips that image and logs a message.
 - **Polygon Annotations**: For unrecognized category ID, the code defaults to the `Unlabelled` class with a grayscale value of `0`.
-- **Output Structure**: The raw images and their masks are saved with corresponding sequential names, ensuring easy matching between images and masks for training or further processing.
