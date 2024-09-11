@@ -12,7 +12,7 @@ The first step involves importing the necessary libraries for image processing, 
 
 The initial step in preparing images for training involves importing and preprocessing them to make them suitable for a machine learning model:
 
-1. **Loading Images**: Images are typically loaded in grayscale mode to simplify the process, especially if the segmentation task does not require color information. Grayscale images have only one channel compared to RGB images which have three channels. This can reduce computational complexity and focus the model on the intensity information.
+1. **Loading Images**: Images are typically loaded in grayscale mode to simplify the process. Grayscale images have only one channel compared to RGB images which have three channels. This can reduce computational complexity and focus the model on the intensity information.
 
 2. **Resizing**: Images are resized to a uniform dimension, such as 1024x1024 pixels, to maintain consistency across the dataset.
 
