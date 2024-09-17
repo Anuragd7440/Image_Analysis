@@ -30,7 +30,7 @@ The segmented images are analyzed to compute the overall work done at a project 
 ### Work Progress Calculation Functions
 
 1. **`get_unique_pixel_values_and_areas(image_path)`**:
-   - Reads the image segmented images and returns a dictionary of unique pixel values and their corresponding counts (areas).
+   - Reads the segmented images and returns a dictionary of unique pixel values and their corresponding counts (areas).
 
 2. **`calculate_distance(pixel, color)`**:
    - Calculates the distance between a pixel value and a class color (in grayscale).
