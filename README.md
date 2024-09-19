@@ -31,13 +31,14 @@ This notebook provides steps to train a U-Net model for image segmentation. Inst
 This folder includes two tasks: segmenting images and analyzing the work progress.
 
 ### Task 1: Image Segmentation
-- Splits images into two vertical halves, segments each half using the trained U-Net model, and stitches them back together. The segmented output is not saved as an image but used for analysis.
+- You will need to manually analyze the dimensions of the input images. If the image is large, manually modify the code to split the image into smaller subimages. Each subimage is then segmented individually using the trained U-Net model. After segmentation, the subimages should be joined back together in their original positions to reconstruct the full segmented image.
 
 ### Task 2: Work Progress Calculation
 - Calculates work completion percentages based on predefined class mappings from the segmentation results.
 
 ### Steps to Execute:
 1. Open `Calculating_Perct_Work_Done.ipynb` in Google Colab.
-2. Upload the segmented image data or the pre-trained model.
-3. Run the cells to calculate the work progress percentages based on class mappings.
-4. The results will be displayed in the notebook.
+2. Manually analyze the input image dimensions and adjust the code as needed to split the images into subimages.
+3. Run the cells to perform segmentation on the subimages and join them based on their original positions.
+4. Continue to calculate the work progress percentages based on class mappings.
+5. The results will be displayed in the notebook.
