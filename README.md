@@ -2,7 +2,7 @@
 
 This repository contains three essential workflows for image segmentation and work progress analysis:
 
-1. **[Label Studio to Grayscale Mask Conversion Pipeline](https://github.com/Anuragd7440/Image_Analysis/tree/main/Creating%20Masks)**: Converts annotated images from Label Studio into grayscale masks.
+1. **[Label Studio to Grayscale Mask Conversion](https://github.com/Anuragd7440/Image_Analysis/tree/main/Creating%20Masks)**: Converts annotated images from Label Studio into grayscale masks.
 2. **[Image Segmentation with U-Net](https://github.com/Anuragd7440/Image_Analysis/tree/main/Segmentation%20Code)**: A step-by-step guide for training and generating a U-Net model.
 3. **[Work Progress Analysis](https://github.com/Anuragd7440/Image_Analysis/tree/main/Calculating%20Percentage%20Work%20Done)**: A tool for image segmentation and calculating work completion.
 
